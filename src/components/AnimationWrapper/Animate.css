@@ -1,0 +1,35 @@
+.flip-card-container {
+    perspective: 1000px;
+    width: 200px;
+    height: 200px;
+}
+
+.flip-card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.card-front {
+    background-color: #ff5e5e;
+}
+
+.card-back {
+    background-color: #5eafff;
+    transform: rotateY(180deg);
+}
