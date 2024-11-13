@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "auto",
   "scripts": {
     "dev": "vite",
     "dev:host": "vite --host",
