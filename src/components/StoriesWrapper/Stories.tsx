@@ -7,7 +7,7 @@ import * as hooks from "../../hooks";
 import styles from "../../index.module.scss";
 import * as utilities from "../../utilities";
 import cross from "../../assets/cross.svg";
-import AnimationWrapper from "../AnimationWrapper/Animate";
+//import AnimationWrapper from "../AnimationWrapper/Animate";
 
 export default function Stories({
   stories = [],
@@ -20,7 +20,6 @@ export default function Stories({
   onAllStoriesEnd = () => {},
   onStoriesStart = () => {},
   classNames = {},
-  pauseStoryWhenInActiveWindow = true,
   onNextClick = () => {},
   onPrevClick = () => {},
   onCloseClick = () => {},
@@ -123,7 +122,6 @@ export default function Stories({
   }
   return (
     <StoriesContext.Provider value={contextValue}>
-     {/*  <AnimationWrapper> */}
         <div
           className={`${styles.main} ${classNames.main || ""}`}
           style={{ width, height }}
@@ -149,7 +147,6 @@ export default function Stories({
             <img src={cross} />
           </button>
         </div>
-     {/*  </AnimationWrapper> */}
     </StoriesContext.Provider>
   );
 }
