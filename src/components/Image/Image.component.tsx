@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { IStoryComponentProps } from "../../types";
 import styles from "./Image.module.css";
 import Loader from "../Loader/Loader";
+import { TEST_ID } from "../../common/constants";
 
 export const Image = (props: IStoryComponentProps) => {
   const [loaded, setLoaded] = useState(false);
@@ -24,6 +25,7 @@ export const Image = (props: IStoryComponentProps) => {
         src={props.story.url}
         alt="story" //@todo make dynamic
         onLoad={handleLoadImage}
+        data-testid={TEST_ID.IMAGE} //@todo make dynamic
       />
       {!loaded && (
         <div

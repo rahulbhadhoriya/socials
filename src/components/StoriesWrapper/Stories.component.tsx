@@ -7,6 +7,7 @@ import * as hooks from "../../hooks";
 import styles from "../../index.module.scss";
 import * as utilities from "../../utilities";
 import cross from "../../assets/cross.svg";
+import { TEST_ID } from "../../common/constants";
 //import AnimationWrapper from "../AnimationWrapper/Animate";
 
 export default function Stories({
@@ -143,7 +144,7 @@ export default function Stories({
             onPause={handlePause}
             onResume={handleResume}
           />
-          <button className={styles.cross} onClick={onCloseClick}>
+          <button className={styles.cross} onClick={onCloseClick} data-testid={TEST_ID.CROSSBTN}>
             <img src={cross} />
           </button>
         </div>

@@ -1,5 +1,6 @@
-import User from "./User";
+import User from "./User.component";
 import * as styles from '../../index.module.scss'
+import { TEST_ID } from "../../common/constants";
 
 const UserList = ({users, setSelectedUser}) => {
   return (

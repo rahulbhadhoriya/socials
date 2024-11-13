@@ -61,9 +61,11 @@ export const Actions = ({
     <Fragment>
       <div
         className={styles.left}
+        data-testid="left"
         {...getEvents(CONSTANTS.EVENT_REGION.LEFT)}
       />
       <div
+       data-testid="right"
         className={styles.right}
         {...getEvents(CONSTANTS.EVENT_REGION.RIGHT)}
       />

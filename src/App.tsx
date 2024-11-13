@@ -1,10 +1,11 @@
 import { lazy, Suspense, useEffect, useState } from "react";
-import UserList from "./components/UserView/UserList";
+import UserList from "./components/UserView/UserList.component";
 import { IUser } from "./types";
 import { fetchUserStories } from "./App.service";
 import * as styles from "./index.module.scss";
+import { TEST_ID } from "./common/constants";
 
-const StoriesLazy = lazy(() => import("./components/StoriesWrapper/Stories"));
+const StoriesLazy = lazy(() => import("./components/StoriesWrapper/Stories.component"));
 
 export default function App() {
   const [users, setUsers] = useState<IUser[]>([]);
@@ -47,7 +48,6 @@ export default function App() {
   };
 
   const handleNextClick = () => {
-    //console.log("next", currUserIndex, currStoryIndex);
   };
 
   const handlePrevClick = () => {
@@ -70,7 +70,7 @@ export default function App() {
 
   return (
     <div className={styles.container}>
-      <div style={{ display : selectedUser ? 'none': 'block' }}>
+      <div style={{ display : selectedUser ? 'none': 'block' }} data-testid={TEST_ID.USERLIST}>
         <UserList users={users} setSelectedUser={handleUserSelection} />
       </div>
       <Suspense>
