@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "iconUrl": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1",
+    "stories": [
+      {
+        "id": 11,
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1618244972963-dbee1a7edc95",
+        "duration": 5000
+      },
+      {
+        "id": 12,
+        "type": "image",
+        "duration": 5000,
+        "url": "https://images.unsplash.com/photo-1695747003514-83297acc8de3"
+      },
+      {
+        "id": 13,
+        "duration": 5000,
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1695747002003-86a885df27ee"
+      }
+    ],
+    "viewed": false
+  },
+  {
+    "id": 2,
+    "iconUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    "stories": [
+      {
+        "id": 21,
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
+        "duration": 5000
+      },
+      {
+        "id": 22,
+        "type": "image",
+        "duration": 5000,
+        "url": "https://images.unsplash.com/photo-1531256456869-ce942a665e80"
+      },
+      {
+        "id": 23,
+        "duration": 5000,
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1530977075502-3940a1e238ee"
+      },
+      {
+        "id": 24,
+        "duration": 5000,
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1598198414976-ddb788ec80c1"
+      }
+    ],
+    "viewed": false
+  },
+  {
+    "id": 3,
+    "iconUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "stories": [
+      {
+        "id": 31,
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1505033575518-a36ea2ef75ae",
+        "duration": 5000
+      },
+      {
+        "id": 32,
+        "type": "image",
+        "duration": 5000,
+        "url": "https://images.unsplash.com/photo-1546872006-42c78c0ccb29"
+      }
+    ],
+    "viewed": false
+  },
+  {
+    "id": 4,
+    "iconUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "stories": [
+      {
+        "id": 41,
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1518806118471-f28b20a1d79d",
+        "duration": 5000
+      },
+      {
+        "id": 42,
+        "type": "image",
+        "duration": 5000,
+        "url": "https://images.unsplash.com/photo-1533330643940-2590b50da813"
+      }
+    ],
+    "viewed": false
+  },
+  {
+    "id": 5,
+    "iconUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    "stories": [
+      {
+        "id": 51,
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1468141589425-dcddef77ddad",
+        "duration": 5000
+      },
+      {
+        "id": 52,
+        "type": "image",
+        "duration": 5000,
+        "url": "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7"
+      }
+    ],
+    "viewed": false
+  },
+  {
+    "id": 6,
+    "iconUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
+    "stories": [
+      {
+        "id": 61,
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1580289782813-aedbb2478a68",
+        "duration": 5000
+      },
+      {
+        "id": 62,
+        "type": "image",
+        "duration": 5000,
+        "url": "https://images.unsplash.com/photo-1503095396549-807759245b35"
+      }
+    ],
+    "viewed": false
+  }
+]

@@ -1,50 +1,24 @@
-# React + TypeScript + Vite
+# description
+1. This is a humble attempt to write a modular socials app in which i have tried to implement instagram story like feature.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Live deployed link
+url:- https://socials-4d3e.vercel.app/
 
-Currently, two official plugins are available:
+# setup
+1. clone the repo
+2. run npm install (you can also use pnpm)
+3. run npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# test cases are in __tests__ folder
+run test cases by 
+npm run test
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# deployment via CI/CD
+1. Deploy part has been handled via vercel
+2. branch integrate with vercel right now is feature/stories
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# design choices
+1. code starts with App component (it can also be made more resuable.)
+2. code is spilt according to stories type, just like Image component we can have many more type of component
+and handled them accordingly
